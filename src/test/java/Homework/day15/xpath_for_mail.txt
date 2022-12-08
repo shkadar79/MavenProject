@@ -1,0 +1,56 @@
+1.Mail.ru
+//a[@class='ph-project svelte-jq5qv5 ph-project_current']
+//*[contains(@class, 'ph-project svelte-jq5qv5 ph-project_current')]
+
+2.Почта
+//a[@class='ph-project svelte-jq5qv5'][1]
+//*[contains(@data-click-counter, '374383493, 61021856, 90824763')]
+
+3.Облако
+//a[@class][3]
+//a[@data-click-counter='374383505, 61021857']
+
+4.@mail.ru
+//a[@href='//mail.ru']
+//a[@class='logo__img svelte-3hymh3']
+
+5.Войти
+//button[@data-click-counter='84226411']
+//div[@data-testid='mailbox']/button
+
+6.Создать почту
+//a[@data-click-counter='84226414']
+//div[@class='footer svelte-9mmq1z']/a
+
+7.Поиск
+//input[@aria-label='Запрос']
+//*[contains(@aria-label, 'Запрос')]
+
+8.Найти
+//button[@class='search-arrow__button']
+//*[contains(@type, 'submit')]
+
+9.Регистрация
+//div[@class='ph-auth svelte-1hiqrvn']/a
+//*[contains(@class, 'ph-project__register')]
+
+10.Войти
+//*[contains(@class, 'ph-project__register')]/button
+//button[@data-click-counter='75068996']
+
+11.Леди
+//*[contains(@href, 'lady')]
+//a[@href='//lady.mail.ru/']
+
+12.Погода
+//*[contains(@data-testid,'weather-extend')]
+//div[@data-testid='weather']/a[2]
+
+13.Подробнее
+//a[@data-testid='weather-more']
+//div[contains (@class, 'weather__header')]/a[2]
+
+14.Статья
+//div[@class='grid__ccol svelte-3k1upp']/ul/li[2]/div/a
+
+

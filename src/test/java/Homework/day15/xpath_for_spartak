@@ -1,0 +1,47 @@
+1. Спартак
+//img [@alt='логотип Спартак']
+//div[@class='header__logo']/a/img
+
+2.Лупа
+//*[contains (@class, 'lupa')]
+//div[@class='header__search']/ul/li/i
+
+3.Глаз
+//span[@class='header__eye']/a/img
+//*[contains (@src, 'eye')]
+
+4.Ru
+//span[@class='ik_select_link_text']
+//div[@class='header__lang_mob']/div/div/span
+
+5.Ch
+//a[@href='/cn/']
+//*[contains (@href, 'cn')]
+
+6.Скачать каталог
+//a[@class='download-catalog']
+//*[contains(@class, 'download-catalog')]
+
+7.Вторая страница карусели
+//*[contains(@class, 'flex')]/li[2]
+//ol/li[2]
+
+8.VK
+//ul[@class='social_list']/li/a/img
+//*[contains (@src, 'VK')]
+
+9.YouTube
+//ul[@class='social_list']/li[5]/a/img
+//*[contains (@src, 'youtube')]
+
+10.Стрелка вправо
+//a[@class='flex-next']
+//ul[@class='flex-direction-nav']/li[2]/a
+
+11.Каталог продукции
+//a[@href='/products/']/span
+//ul[@class='menu full']/li[2]/a/span
+
+12.Импрессо
+//a[@href='/products/Impresso/']
+//*[contains (@href, 'Impresso')]
