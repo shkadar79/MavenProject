@@ -1,24 +1,25 @@
+package Classwork.day14;
+
 import org.junit.Test;
 import people.AutomatedEngineer;
-import people.ManualEngineer;
 
 import static org.junit.Assert.assertEquals;
-public class ManualEngineerTest {
-    ManualEngineer me = new ManualEngineer(32, 5);
+
+public class AutomatedEngineerTest {
+    AutomatedEngineer ae = new AutomatedEngineer(32, 5);
 
     @Test
     public void ageTest() {
-        assertEquals(32, me.getAge());
+        assertEquals(32, ae.getAge());
     }
 
     @Test
     public void skillTest() {
-        assertEquals(10, me.getSkill());
+        assertEquals(15, ae.getSkill());
     }
     @Test
     public void experienceTest(){
-        assertEquals(5, me.getExperience());
+        assertEquals(5, ae.getExperience());
     }
-
 
 }
